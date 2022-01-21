@@ -1,0 +1,521 @@
+Server RECIVE___________________________START
+{"command":"keepAlive","id":22}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"isadmin": true, "token": "1234567", "user": "Admin", "userid": 0}, "id": 18, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getDeviceState","id":23}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 22, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getDeviceParams","id":24}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"deviceactive": true}, "id": 23, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":48}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"commaster": 0, "daymode": false, "impulse": true, "impulseduration": 1, "ip": "0.0.0.0", "isdisabled": false, "iskeylessenabled": true, "isvdsenabled": true, "mac": "3c:71:bf:da:11:cc", "pinlength": 6, "security": 1, "state": "CLOSED", "systemfloor": "", "systemlocation": "", "systemname": "", "timestamp": 1629405652, "timezone": "CET-1CEST,M3.5.0/2,M10.5.0/3", "usercount": 4, "vdsstatus": false, "warnings": []}, "id": 24, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":52}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": -1, "status": "session_occupied"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":56}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 48, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":63}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 52, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":67}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 56, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":81}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 63, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":85}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 67, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":101}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 81, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":111}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 85, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"login","user":"Admin","password":"****","long_life":false,"id":113}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 101, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":117}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 111, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUserIds","id":120}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"isadmin": true, "token": "1234567", "user": "Admin", "userid": 0}, "id": 113, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getDeviceState","id":121}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 117, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getDeviceParams","id":122}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userids": [0, 1, 2, 3]}, "id": 120, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":0},"id":124}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"deviceactive": true}, "id": 121, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":126}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"commaster": 0, "daymode": false, "impulse": true, "impulseduration": 1, "ip": "0.0.0.0", "isdisabled": false, "iskeylessenabled": true, "isvdsenabled": true, "mac": "3c:71:bf:da:11:cc", "pinlength": 6, "security": 1, "state": "CLOSED", "systemfloor": "", "systemlocation": "", "systemname": "", "timestamp": 1629405727, "timezone": "CET-1CEST,M3.5.0/2,M10.5.0/3", "usercount": 4, "vdsstatus": false, "warnings": []}, "id": 122, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":130}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [{"apid": 0, "aptype": 0}, {"apid": 1, "aptype": 1}, {"apid": 2, "aptype": 40}, {"apid": 3, "aptype": 41}], "isapp": true, "isdisabled": false, "keyless": true, "userid": 0, "username": "Admin", "usertype": 1}}, "id": 124, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":1},"id":132}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 126, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUserIds","id":135}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 130, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":137}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [{"apid": 4, "aptype": 0}, {"apid": 5, "aptype": 1}], "duration": 86400, "isapp": true, "isdisabled": false, "keyless": true, "starttime": 1620764357, "userid": 1, "username": "sylvi", "usertype": 1}}, "id": 132, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":2},"id":139}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userids": [0, 1, 2, 3]}, "id": 135, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":0},"id":141}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 137, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUserIds","id":144}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [{"apid": 6, "aptype": 0}], "duration": 86400, "isapp": true, "isdisabled": false, "keyless": true, "starttime": 1621270712, "userid": 2, "username": "frank", "usertype": 2}}, "id": 139, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":1},"id":146}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [{"apid": 0, "aptype": 0}, {"apid": 1, "aptype": 1}, {"apid": 2, "aptype": 40}, {"apid": 3, "aptype": 41}], "isapp": true, "isdisabled": false, "keyless": true, "userid": 0, "username": "Admin", "usertype": 1}}, "id": 141, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":2},"id":148}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userids": [0, 1, 2, 3]}, "id": 144, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":0},"id":150}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [{"apid": 4, "aptype": 0}, {"apid": 5, "aptype": 1}], "duration": 86400, "isapp": true, "isdisabled": false, "keyless": true, "starttime": 1620764357, "userid": 1, "username": "sylvi", "usertype": 1}}, "id": 146, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":1},"id":152}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [{"apid": 6, "aptype": 0}], "duration": 86400, "isapp": true, "isdisabled": false, "keyless": true, "starttime": 1621270712, "userid": 2, "username": "frank", "usertype": 2}}, "id": 148, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":2},"id":154}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [{"apid": 0, "aptype": 0}, {"apid": 1, "aptype": 1}, {"apid": 2, "aptype": 40}, {"apid": 3, "aptype": 41}], "isapp": true, "isdisabled": false, "keyless": true, "userid": 0, "username": "Admin", "usertype": 1}}, "id": 150, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":3},"id":156}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [{"apid": 4, "aptype": 0}, {"apid": 5, "aptype": 1}], "duration": 86400, "isapp": true, "isdisabled": false, "keyless": true, "starttime": 1620764357, "userid": 1, "username": "sylvi", "usertype": 1}}, "id": 152, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":158}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [{"apid": 6, "aptype": 0}], "duration": 86400, "isapp": true, "isdisabled": false, "keyless": true, "starttime": 1621270712, "userid": 2, "username": "frank", "usertype": 2}}, "id": 154, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":162}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [], "duration": 86400, "isapp": true, "isdisabled": false, "keyless": true, "starttime": 1625613612, "userid": 3, "username": "test", "usertype": 2}}, "id": 156, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":166}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 158, "status": "ok"}
+Server Answer___________________________ENDf
+
+
+C:\Users\julia\PycharmProjects\pythonProject3\venv\Scripts\python.exe C:/Users/julia/PycharmProjects/pythonProject3/main.py
+Server RECIVE___________________________START
+{"command":"getDevice","id":322}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"fallback": 250, "firmware_update": 0, "hardwareversion": "21032301.21031601.20051501", "initialized": true, "multiadminpwinit": true, "serialnr": "020106141594E8", "softwareversion": "1.1.4.8", "subvariant": 0, "systemfloor": "", "systemlocation": "", "systemname": "", "type": 7, "variant": 1}, "id": 322, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":325}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 325, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":328}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 328, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"login","user":"scholle","password":"*****","long_life":false,"id":330}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {}, "id": 330, "status": "authentication_error"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":332}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 332, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":335}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 335, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":337}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 337, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"login","user":"scholle","password":"****","long_life":false,"id":339}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {}, "id": 339, "status": "authentication_error"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":342}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 342, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":345}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 345, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":347}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 347, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"login","user":"Admin","password":"****","long_life":false,"id":349}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"isadmin": true, "token": "1234567", "user": "Admin", "userid": 0}, "id": 349, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":351}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 351, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getDeviceState","id":352}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"deviceactive": true}, "id": 352, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getDeviceParams","id":353}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"commaster": 0, "daymode": false, "impulse": true, "impulseduration": 1, "ip": "0.0.0.0", "isdisabled": false, "iskeylessenabled": true, "isvdsenabled": true, "mac": "3c:71:bf:da:11:cc", "pinlength": 6, "security": 1, "state": "CLOSED", "systemfloor": "", "systemlocation": "", "systemname": "", "timestamp": 1629408050, "timezone": "CET-1CEST,M3.5.0/2,M10.5.0/3", "usercount": 4, "vdsstatus": false, "warnings": []}, "id": 353, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getDeviceState","id":354}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"deviceactive": true}, "id": 354, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getDeviceParams","id":355}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"commaster": 0, "daymode": false, "impulse": true, "impulseduration": 1, "ip": "0.0.0.0", "isdisabled": false, "iskeylessenabled": true, "isvdsenabled": true, "mac": "3c:71:bf:da:11:cc", "pinlength": 6, "security": 1, "state": "CLOSED", "systemfloor": "", "systemlocation": "", "systemname": "", "timestamp": 1629408051, "timezone": "CET-1CEST,M3.5.0/2,M10.5.0/3", "usercount": 4, "vdsstatus": false, "warnings": []}, "id": 355, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getAcsDeviceIds","id":356}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"acsdevices": [{"devicebusmaster": false, "devicecommaster": true, "devicedisabled": false, "deviceid": 0, "devicename": "", "devicetype": "030100"}, {"devicebusmaster": true, "devicecommaster": false, "devicedisabled": false, "deviceid": 9, "devicename": "", "devicetype": "020100"}]}, "id": 356, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUserIds","id":357}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userids": [0, 1, 2, 3]}, "id": 357, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getAcsDeviceDetails","params":{"deviceid":0},"id":359}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"acsdevicedetails": {"deviceid": 0, "devicespecific": "vub/ZAEBAAABYR7LNBxDRVQtMUNFU1QsTTMuNS4wLzIsTTEwLjUuMC8zAAEAAQAAAAAAAAAAAAAAAAAAAAALU3lsdmlzLVdsYW4MbWkxbWEyc3kzanM0", "hardwareversion": "00000000", "isdisabled": false, "serialnr": "01620184", "softwareversion": "01010408.00000000", "warnings": ["0", "0", "0", "0"]}}, "id": 359, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getAcsDeviceDetails","params":{"deviceid":9},"id":361}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"acsdevicedetails": {"deviceid": 9, "devicespecific": "AAIAAgABAAQBAAEAAAAB", "hardwareversion": "000001FF", "isdisabled": false, "serialnr": "141594E8", "softwareversion": "21032301.21031601", "warnings": ["0", "0", "0", "0"]}}, "id": 361, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":0},"id":363}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [{"apid": 0, "aptype": 0}, {"apid": 1, "aptype": 1}, {"apid": 2, "aptype": 40}, {"apid": 3, "aptype": 41}], "isapp": true, "isdisabled": false, "keyless": true, "userid": 0, "username": "Admin", "usertype": 1}}, "id": 363, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":1},"id":365}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [{"apid": 4, "aptype": 0}, {"apid": 5, "aptype": 1}], "duration": 86400, "isapp": true, "isdisabled": false, "keyless": true, "starttime": 1620764357, "userid": 1, "username": "sylvi", "usertype": 1}}, "id": 365, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":2},"id":367}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [{"apid": 6, "aptype": 0}], "duration": 86400, "isapp": true, "isdisabled": false, "keyless": true, "starttime": 1621270712, "userid": 2, "username": "frank", "usertype": 2}}, "id": 367, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUser","params":{"userid":3},"id":369}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userdetails": {"ap": [], "duration": 86400, "isapp": true, "isdisabled": false, "keyless": true, "starttime": 1625613612, "userid": 3, "username": "test", "usertype": 2}}, "id": 369, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":371}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 371, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getDeviceState","id":372}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"deviceactive": true}, "id": 372, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getDeviceParams","id":373}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"commaster": 0, "daymode": false, "impulse": true, "impulseduration": 1, "ip": "0.0.0.0", "isdisabled": false, "iskeylessenabled": true, "isvdsenabled": true, "mac": "3c:71:bf:da:11:cc", "pinlength": 6, "security": 1, "state": "CLOSED", "systemfloor": "", "systemlocation": "", "systemname": "", "timestamp": 1629408062, "timezone": "CET-1CEST,M3.5.0/2,M10.5.0/3", "usercount": 4, "vdsstatus": false, "warnings": []}, "id": 373, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getAcsDeviceIds","id":374}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"acsdevices": [{"devicebusmaster": false, "devicecommaster": true, "devicedisabled": false, "deviceid": 0, "devicename": "", "devicetype": "030100"}, {"devicebusmaster": true, "devicecommaster": false, "devicedisabled": false, "deviceid": 9, "devicename": "", "devicetype": "020100"}]}, "id": 374, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUserIds","id":375}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userids": [0, 1, 2, 3]}, "id": 375, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getAcsDeviceIds","id":376}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"acsdevices": [{"devicebusmaster": false, "devicecommaster": true, "devicedisabled": false, "deviceid": 0, "devicename": "", "devicetype": "030100"}, {"devicebusmaster": true, "devicecommaster": false, "devicedisabled": false, "deviceid": 9, "devicename": "", "devicetype": "020100"}]}, "id": 376, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getUserIds","id":377}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"userids": [0, 1, 2, 3]}, "id": 377, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":379}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 379, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getProtocolData","params":{"deviceid":9,"protocoltype":0},"id":381}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"deviceid": 9, "protocoldata": "ABQVlOghAyMBxooE4SEDFgHGigThIAUVAcR4k7YAAAH/AAAAAAQAAAFkAAADpAAAAAAAAAAAAAAAEwCCYINgv2iPf/8Bqu4AAABjAAEAAgEABAEAAf//////////////////////////AAz///////8AAf//////////AAH//////////wAD", "protocoltype": 0}, "id": 381, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":383}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 383, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":385}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 385, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"getProtocolData","params":{"deviceid":9,"protocoltype":1},"id":387}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"data": {"deviceid": 9, "protocoldata": "A0phHudSBwQAADECABEC/wNJYR7nNwcE////AAARAv8DSGEe5ygHBP///wABEQL/A0dhHubUCgIAAAAFAREC/wNGYR7mYQcEAAAxAv8RAf8DRWEe5l0HBAAAMQL/EQH/A0RhHuZLBwQAADECABEC/wNDYR7mRwoCAAD//v8RAf8DQmEe5kQHBAAAMQL/EQH/A0FhHuY0CgIAAAAAABEC/wNAYR7mMwcEAAAxAv8RAf8DP2Ee5fQKAgAAAAQAEQL/Az5hHuXxBwQAADECABEC/wM9YR7lOQoCAAAAAAARAv8DPGEe5TYHBAAAMQIAEQL/AzthHuQvCgIAAP/+/xEB/wM6YR7kLAcEAAAxAgERAv8DOWEe5AAKAgAA//7/EQH/AzhhHuP/BwQAADECABEC/wM3YR7j7woCAAD//v8RAf8DNmEe4+4HBAAAMQL/EQH/AzVhHuPZCgIAAAAAABEC/wM0YR7j2AcEAAAxAgARAv8DM2Ee41oKAgAAAAQAEQL/AzJhHuNZBwQAADEC/xEB/wMxYR7eaAoCAAD//v8RAf8DMGEe3jMHBAAAMQIAEQL/Ay9hHt33BwQAADECABEC/wMuYR7d7gcEAAAxAv8RAf8DLWEe3egHBAAAMQL/EQH/AyxhHt3lBwQAADECABEC/wMrYR6ckAEHAAAAAAARAv8DKmEeYFYBBwABAAQAEQL/AylhHmBUAQf////+/xEB/wMoYR4fEQEH/////v8RAf8DJ2EdiS4BBwABAAQAEQL/AyZhHV3GAQcAAAAAABEC/wMlYR1dwwEH/////v8RAf8DJGEdXcMBB/////7/EQH/AyNhHV3BAQf////+/xEB/wMiYR0yRgEHAAAAAAARAv8DIWEdMkMBB/////7/EQH/AyBhHO0mAQcAAQAEABEC/wMfYRztJQEH/////v8RAf8DHmEc6zgBBwABAAQAEQL/Ax1hHOgIAQcAAQAEABEC/wMcYRzP0gEH/////v8RAf8DG2EczdMBB/////7/EQH/AxphHM3SAQf////+/xEB/wMZYRzNzwEHAAAAAAARAv8DGGEczc4BB/////7/EQH/AxdhHM3MAQf////+/xEB/wMWYRxElwEHAAEABAARAv8DFWEb0TIBBwABAAQAEQL/AxRhG9ExAQcAAQAEABEC/wMTYRvKiwEH/////v8RAf8DEmEaqacBBwABAAQAEQL/AxFhGqfeAQf////+/xEB/wMQYRqn3QEHAAAAAAARAv8DD2Eap9sBB/////7/EQH/Aw5hGqfZAQf////+/xEB/wMNYRqBWQEH/////v8RAf8DDGEaBZcBBwABAAQAEQL/AwthGFVzAQcAAAAAABEC/wMKYRhVcAEH/////v8RAf8DCWEYVW4BB/////7/EQH/AwhhGFVuAQf////+/xEB/wMHYRhVbQEH/////v8RAf8DBmEX1s8BBwABAAQAEQL/AwVhF8wJAQcAAQAEABEC/wMEYRbPIAEHAAAAAAARAv8DA2EWzxwBB/////7/EQH/AwJhFjgHAQf////+/xEB/wMBYRY4BQEH/////v8RAf8DAGEWOAQBBwAAAAAAEQL/Av9hFjgCAQf////+/xEB/wL+YRY4AAEH/////v8RAf8C/WEWN/4BB/////7/EQH/AvxhFjf9AQf////+/xEB/wL7YRY3+wEH/////v8RAf8C+mEWN8wBBwAAAAAAEQL/AvlhFjfKAQf////+/xEB/wL4YRY3yQEH/////v8RAf8C92EWN8gBB/////7/EQH/AvZhFigxAQcAAQAEABEC/wL1YRYoMAEH/////v8RAf8C9GEVIAABBwABAAUBEQL/AvNhFR//AQf////+/xEB/wLyYRUT2wEH/////v8RAf8C8WEVE9oBBwAAAAAAEQL/AvBhDuJ4AQcAAQAFAREC/wLvYQ6iuQEHAAAAAAARAv8C7mEOYX8BBwABAAQAEQL/Au1hDmEkAQcAAQAEABEC/wLsYQ14lAEHAAAAAAARAv8C62ENeJABB/////7/EQH/AuphDWyxAQcAAAAAABEC/wLpYQxCWgEHAAAAAAARAv8C6GEMQlgBBwAAAAAAEQL/AudhDEJWAQf////+/xEB/w==", "protocoltype": 1}, "id": 387, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":389}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 389, "status": "ok"}
+Server Answer___________________________END
+Server RECIVE___________________________START
+{"command":"keepAlive","id":391}
+
+Server RECIVE___________________________ENDE
+Server Answer___________________________START
+{"id": 391, "status": "ok"}
+Server Answer___________________________END
